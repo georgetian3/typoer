@@ -1,6 +1,8 @@
 # typoer
 Types text with typos and correction
 
+![demo](demo.gif)
+
 # Installation
 
 1. Download `typoer.py` and `requirements.txt`
@@ -12,8 +14,9 @@ Types text with typos and correction
 ## Example
 
 ```
+from typoer import typoer
 text = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
-typoer(text, wpm = 100, accuracy = 0.95, wait_key = 'up', break_key = 'down')
+typoer(text, wpm = 120, accuracy = 0.8, wait_key = 'right')
 ```
 
-This will type `text` at an average rate of 100WPM with an accuracy of 95%. Press <kdb>↑</kbd> to begin typing, and <kdb>↓</kbd> to stop.
+This will type `text` at an average rate of 120WPM with an accuracy of 80%. Press the right arrow key to begin typing..

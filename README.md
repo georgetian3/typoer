@@ -19,4 +19,8 @@ text = 'Lorem Ipsum is simply dummy text of the printing and typesetting industr
 typoer(text, wpm = 120, accuracy = 0.8, wait_key = 'right')
 ```
 
-This will type `text` at an average rate of 120WPM with an accuracy of 80%. Press the right arrow key to begin typing..
+This will type `text` at an average rate of 120WPM with an accuracy of 80%. Press the right arrow key to begin typing.
+
+# Documentation
+
+See `typoer.py`

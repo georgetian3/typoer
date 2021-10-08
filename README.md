@@ -12,8 +12,8 @@ Types text with typos and correction
 ## Example
 
 ```
-text = r'''Lorem Ipsum is simply dummy text of the printing and typesetting industry.'''
+text = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
 typoer(text, wpm = 100, accuracy = 0.95, wait_key = 'up', break_key = 'down')
 ```
 
-This will type `text` at an average rate of 100WPM with an accuracy of 95%. Press <kdb>Up<kbd> to begin typing, and <kdb>Down<kbd> to stop.
+This will type `text` at an average rate of 100WPM with an accuracy of 95%. Press <kdb>Up</kbd> to begin typing, and <kdb>Down</kbd> to stop.

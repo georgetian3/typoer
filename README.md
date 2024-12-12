@@ -6,7 +6,7 @@ Types text with typos and correction
 # Installation
 
 1. Download `typoer.py` and `requirements.txt`
-2. ```pip install -r requirements```
+2. ```pip install -r requirements.txt```
 3. In your file add `from typoer import typoer`
 
 # Usage
